@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: #14110f;
+}
+nav {
+  display: grid;
+  color: rgb(255, 255, 255);
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  background: #303030;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+}
+#lien {
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s ease;
+}
+#lien:hover {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 15px;
+  padding: 10px 8px;
+  font-size: 1.1rem;
+  letter-spacing: 4px;
+}
+#language {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 15px;
+  padding: 10px 8px;
+  transition: 0.4s ease;
+  font-weight: 800;
+}
+#language:hover {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px 8px;
+}
+header {
+  display: grid;
+  min-height: 50vh;
+  color: white;
+  padding: 60px;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 30px 0 35px;
+  font-size: 2.5rem;
+}
+.description {
+  display: block;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 50px;
+  background: #30303077;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  word-spacing: 2px;
+  line-height: 1.8;
+  margin-bottom: 250px;
+}
+.description span {
+  font-weight: bold;
+  text-align: left;
+  color: #ff0000;
+}
+/* LES SITES */
+main {
+  color: white;
+}
+#SiteImg {
+  max-height: 30vh;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.site {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 25px;
+  background: #303030;
+  border-radius: 150px;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+.site h3 {
+  font-size: 2rem;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+.site p {
+  font-size: 1.2rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  max-width: 1500px;
+}
+h3 {
+  transition: 0.5s;
+  color: #ffffff;
+  text-decoration: overline;
+}
+h3:hover {
+  color: #fa4a4a;
+  text-decoration: overline;
+  font-size: 2.5rem;
+  letter-spacing: 15px;
+}
+footer a {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+footer {
+  justify-content: space-around;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  user-select: none;
+  background: black;
+  margin-top: 0px;
+  border: none;
+  border-radius: 15px 15px 0 0;
+}
