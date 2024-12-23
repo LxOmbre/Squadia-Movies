@@ -54,9 +54,11 @@ To run this project locally on your machine, follow these steps:
    git clone https://github.com/LxOmbre/squadia-movies.git
 
 2. **Navigate to the project folder:**
+
    cd squadia-movies
 
 3. **Open the index.html file in your browser to view the website.**
+
    You can simply double-click the index.html file, or open it in any web browser (Google Chrome, Firefox, etc.) to start using the site.
 
 No server setup or installation is required for this project. It's a static website that can be viewed directly from your local machine.
