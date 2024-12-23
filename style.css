@@ -148,3 +148,41 @@ footer {
   border: none;
   border-radius: 15px 15px 0 0;
 }
+
+/* ----- MEDIA QUERY ----- */
+@media screen and (max-width: 982px) {
+  nav {
+    font-size: 0.8rem;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  header p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  #SiteImg {
+    max-height: 20vh;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .site h3 {
+    font-size: 1.4rem;
+  }
+  .site p {
+    font-size: 0.9rem;
+    max-width: 400px;
+  }
+  h3:hover {
+    color: #fa4a4a;
+    text-decoration: overline;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 0.7rem;
+    max-width: 982px;
+}
