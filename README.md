@@ -43,7 +43,7 @@ You can view this project live without installing anything. Simply visit the Git
 ### View on GitHub Pages
 
 Once deployed via GitHub Pages, you can access the live version at:
-[https://Jorissl.github.io/Squadia-Movies](https://your-username.github.io/Squadia-Movies)
+[https://Jorissl.github.io/Squadia-Movies](https://Jorissl.github.io/Squadia-Movies)
 
 ### Run Locally
 
@@ -53,7 +53,7 @@ To run this project locally on your machine, follow these steps:
 
 git clone https://github.com/LxOmbre/squadia-movies.git
 
-2. **git clone https://github.com/LxOmbre/squadia-movies.git**
+2. **Navigate to the project folder:**
    cd squadia-movies
 
 3. **Open the index.html file in your browser to view the website.**
