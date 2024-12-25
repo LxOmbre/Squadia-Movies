@@ -2,6 +2,8 @@
 
 Squadia Movies is a personal project created as part of my journey to learn web development. I started learning HTML and CSS on December 18, 2024, and this project serves as a practical exercise to apply the concepts I've learned so far. I also aim to post a new project every week to keep track of my progress.
 
+Netlify link : https://squadia-movies.netlify.app
+
 ## Features
 
 - **Responsive and modern design:** Adapted to various screen sizes.
