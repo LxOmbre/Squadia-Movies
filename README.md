@@ -42,11 +42,6 @@ This project is licensed under the MIT License - see the [LICENSE][def](LICENSE.
 
 You can view this project live without installing anything. Simply visit the GitHub Pages link or clone the repository and open the `index.html` file in your browser.
 
-### View on GitHub Pages
-
-Once deployed via GitHub Pages, you can access the live version at:
-[https://Jorissl.github.io/Squadia-Movies](https://Jorissl.github.io/Squadia-Movies)
-
 ### Run Locally
 
 To run this project locally on your machine, follow these steps:
